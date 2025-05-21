@@ -5,13 +5,13 @@ VulnerabilidadesApp é uma aplicação web simples para a gestão e listagem de 
 ## Capturas de Tela
 
 ### Página Home
-![Home](./imagens/Home.png)
+![Home](./images/Home.png)
 
 ### Página Privacy
-![Privacy](./imagens/Privacy.png)
+![Privacy](./images/Privacy.png)
 
 ### Página Vulnerabilidades
-![Vulnerabilidades](./imagens/Vulnerabilidades.png)
+![Vulnerabilidades](./images/Vulnerabilidades.png)
 
 ## Como executar
 
