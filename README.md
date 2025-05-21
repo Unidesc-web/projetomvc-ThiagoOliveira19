@@ -1,6 +1,7 @@
 # VulnerabilidadesApp
 
-VulnerabilidadesApp é uma aplicação web simples para a gestão e listagem de vulnerabilidades com uma temática hacker. A aplicação permite visualizar e incluir informações sobre vulnerabilidades descobertas reúnidas em uma interface amigável e organizada.
+o App de Vulnerabilidades é uma aplicação web para a gestão e listagem de vulnerabilidades com uma temática hacker. A aplicação permite visualizar e incluir informações sobre vulnerabilidades descobertas reúnidas em uma interface amigável e organizada.
+Trabalho desenvolvido pelo Aluno Thiago Silva Melo de Oliveira, do 5º semestre de TADS, UNIDESC.
 
 ## Capturas de Tela
 
