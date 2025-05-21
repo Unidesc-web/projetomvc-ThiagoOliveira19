@@ -1,35 +1,20 @@
 # VulnerabilidadesApp
 
-Este projeto é uma aplicação simples para a gestão de vulnerabilidades.  
-Para rodar o servidor localmente, utilize o comando:
+VulnerabilidadesApp é uma aplicação web simples para a gestão e listagem de vulnerabilidades com uma temática hacker. A aplicação permite visualizar e incluir informações sobre vulnerabilidades descobertas reúnidas em uma interface amigável e organizada.
 
-    dotnet run /vulnerabilidades
+## Capturas de Tela
 
-## Como executar:
+### Página Home
+![Home](./imagens/Home.png)
+
+### Página Privacy
+![Privacy](./imagens/Privacy.png)
+
+### Página Vulnerabilidades
+![Vulnerabilidades](./imagens/Vulnerabilidades.png)
+
+## Como executar
+
 1. Certifique-se de ter o .NET SDK instalado.
 2. Navegue até a pasta do projeto via terminal.
-3. Execute:
-
-    dotnet run /vulnerabilidades
-
-4. Acesse o endereço indicado no terminal, normalmente http://localhost:xxxx/vulnerabilidades
-
-## Estrutura do Projeto:
-- Controllers → Controladores da aplicação.
-- Models → Modelos utilizados.
-- Views → Páginas da aplicação (Razor).
-- wwwroot → Arquivos estáticos (CSS, JS, etc).
-- appsettings.json → Configurações da aplicação.
-
-## Como Contribuir:
-- Faça um fork do projeto.
-- Crie uma nova branch:  
-    git checkout -b minha-feature
-- Faça os commits:  
-    git commit -am "Adicionando nova funcionalidade"
-- Suba a branch:  
-    git push origin minha-feature
-- Crie um Pull Request.
-
-## Licença:
-Projeto sob a Licença MIT.
+3. Execute o comando:
