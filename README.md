@@ -17,4 +17,4 @@ VulnerabilidadesApp é uma aplicação web simples para a gestão e listagem de 
 
 1. Certifique-se de ter o .NET SDK instalado.
 2. Navegue até a pasta do projeto via terminal.
-3. Execute o comando:
+3. Execute o comando: ``` dotnet run```
