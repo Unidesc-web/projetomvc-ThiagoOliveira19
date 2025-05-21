@@ -1,0 +1,55 @@
+.tabela-container[b-58ix9vx72c] {
+    background-color: #1e1e1e; /* Cinza escuro */
+    color: #00ff00; /* Verde estilo terminal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.tabela-container h1[b-58ix9vx72c],
+.tabela-container th[b-58ix9vx72c],
+.tabela-container td[b-58ix9vx72c],
+.tabela-container a[b-58ix9vx72c] {
+    color: #00ff00;
+}
+
+.tabela-container .table[b-58ix9vx72c] {
+    background-color: transparent; /* remove branco da table */
+}
+
+.tabela-container .table th[b-58ix9vx72c],
+.tabela-container .table td[b-58ix9vx72c] {
+    border-color: #00ff00; /* bordas verdes opcionais */
+}
+.titulo[b-58ix9vx72c] {
+    color: #00ff00;
+    font-family: monospace;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 10px;
+}
+
+.politica-container[b-58ix9vx72c] {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    color: #c5fbc1;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.politica-container h2[b-58ix9vx72c] {
+    color: #00ff00;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+.politica-container ul[b-58ix9vx72c] {
+    margin-left: 20px;
+}
+
+.politica-container li[b-58ix9vx72c] {
+    margin-bottom: 8px;
+}

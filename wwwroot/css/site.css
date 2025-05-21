@@ -1,0 +1,18 @@
+.btn-vulnerabilidades {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 20px;
+    background-color: #00ff00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.btn-vulnerabilidades:hover {
+    background-color: #55ff55;
+    box-shadow: 0 0 12px #55ff55;
+}

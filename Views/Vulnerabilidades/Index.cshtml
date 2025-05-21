@@ -1,0 +1,39 @@
+@model List<VulnerabilidadesApp.Models.Vulnerabilidade>
+
+@{
+    ViewData["Title"] = "Vulnerabilidades Conhecidas:";
+}
+
+<div class="tabela-container">
+    <h1>@ViewData["Title"]</h1>
+
+    <p>
+        <a asp-action="Create">Criar Nova Vulnerabilidade</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Severidade</th>
+                <th>Data de Descoberta</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Titulo</td>
+                <td>@item.Severidade</td>
+                <td>@item.DataDescoberta.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
